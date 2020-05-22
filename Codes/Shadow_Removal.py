@@ -1,6 +1,6 @@
 import cv2 as cv
 
-img = cv.imread('../Input_Image/Shadow_Paper.jpg')
+img = cv.imread('../Input_Image/Shadow_Paper.jpg', 0)
 img = cv.resize(img, (500, 600))
 
 # Dilating to get rid of Text
